@@ -8,7 +8,7 @@ mongodb:
        - $HOME/mongo/data/db:/data/db
 
 cardsappserver:
-   image: cardsapp:0.3
+   image: cardsapp:latest
    container_name: cardapps
    ports:
      - 8080:8080
